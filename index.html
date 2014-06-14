@@ -26,6 +26,8 @@
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <link rel="resource" type="application/l10n" href="locales/locales.ini" />
+    <script src="js/l10n.js"></script>
     
 </head>
 
@@ -34,7 +36,7 @@
 	<div id="intro-screen" class="page">
     <div class="main-text">
           <img src="images/btns/default-image.png">
-          <button type="button" class="btn btn-primary btn-lg btn-block" id="btn-start">Start</button>
+          <button type="button" class="btn btn-primary btn-lg btn-block" id="btn-start" data-l10n-id="start-button">Start</button>
     </div>
   </div>
 
@@ -64,9 +66,9 @@
 
         <div id="done-panel" class="panel panel-default">
           <div class="panel-body">
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="addDrawing" >Save to Gallery</button>
-            <button type="button" class="btn btn-default btn-lg btn-block" id="btn-new">Clear</button>
-            <button type="button" class="btn btn-default btn-lg btn-block" id="btn-cancel" href="">Cancel</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="addDrawing" data-l10n-id="save-button">Save to Gallery</button>
+            <button type="button" class="btn btn-default btn-lg btn-block" id="btn-new" data-l10n-id="clear-button">Clear</button>
+            <button type="button" class="btn btn-default btn-lg btn-block" id="btn-cancel" href="" data-l10n-id="cancel-button">Cancel</button>
           </div>
         </div>
 
